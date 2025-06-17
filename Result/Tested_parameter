@@ -1,1 +1,7 @@
+source_size_method_sigma_window
 
+default window size: 5*5
+
+method:
+1. candidate: pick the most likely N candidate then random select
+2. iter: update boundary in each iterate,find the coordinate with most reference. Else update boundary after the last detected boundary list is processed
